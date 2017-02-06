@@ -4,7 +4,7 @@ You don’t. You can achieve the same functionality with a lot more typing. What
 
 So you could extract those child components into a separate component, implement a `shouldComponentUpdate()` method and you would have the same functionality. With much more typing.
 
-## Usage
+## How to use it
 This component is especially useful if you have a big component with few sections that depend on different props/state variables. 
 
 Since all those sections belong to the same component, they will be rerendered whenever any of the props/state variables change. You don’t want that. You want the section of a big component to be re rendered only when variables that that section depends on change.
