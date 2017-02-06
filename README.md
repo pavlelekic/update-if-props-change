@@ -31,4 +31,4 @@ render() {
 
 ### Props
 
-`props` - Array of variables that you want to watch for changes. They can be state variables, props, whatever. Whenever any of those variables gets changed, the child components of `<UpdateIfPropsChange/>` will be rerendered.
+`props` - Array of variables that you want to watch for changes. They can be state variables, props, whatever. Whenever any of those variables change, the child components of `<UpdateIfPropsChange/>` will be rerendered.
