@@ -1,0 +1,25 @@
+{
+  "name": "update-if-props-change",
+  "version": "1.0.0",
+  "description": "A handy React.js component to prevent re-rendering of sections of larger components that do not need to be re-rendered.",
+  "main": "UpdateIfPropsChange.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavlelekic/update-if-props-change.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "rerendering",
+    "performance"
+  ],
+  "author": "Pavle Lekic <lekic.pavle@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavlelekic/update-if-props-change/issues"
+  },
+  "homepage": "https://github.com/pavlelekic/update-if-props-change#readme"
+}
