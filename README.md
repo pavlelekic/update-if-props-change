@@ -14,12 +14,12 @@ You can setup this ‘conditional’ re-rendering easy inline with `<UpdateIfPro
 render() {
   return (
     <ComponentA>
-      <UpdateIfPropsChange props=[this.props.someVar1, this.state.someVar2]>
+      <UpdateIfPropsChange props={[this.props.someVar1, this.state.someVar2]}>
         <ComponentB>
           <Text>{this.props.someVar1 + this.state.someVar2}</Text>
         </ComponentB>
       </UpdateIfPropsChange>
-      <UpdateIfPropsChange props=[this.props.someVar3]>
+      <UpdateIfPropsChange props={[this.props.someVar3]}>
         <ComponentE>
           <Text>{this.props.someVar3}</Text>
         </ComponentE>
