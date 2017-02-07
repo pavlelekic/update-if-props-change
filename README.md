@@ -4,6 +4,10 @@ You don’t. You can achieve the same functionality with a lot more typing. What
 
 So you could extract those child components into a separate component, implement a `shouldComponentUpdate()` method and you would have the same functionality. With much more typing.
 
+## Instalation
+
+Via NPM, `npm install update-if-props-change --save`
+
 ## How to use it
 This component is especially useful if you have a big component with few sections that depend on different props/state variables. 
 
